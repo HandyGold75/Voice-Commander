@@ -95,10 +95,10 @@ Sphinx offers the following settings:
 The package portaudio19-dev is required for PyAudio
 
 ```bash
-git clone <URL>
-cd ./Voice\ Commander
+git clone https://github.com/HandyGold75/Voice-Commander.git
+cd Voice-Commander
 python3 -m pip install -r requirements.txt
-python3 ./Voice\ Commander.py
+python3 main.py
 ```
 
 If the following error ocures during the install of the pip requirements you will need to install portaudio19 or portaudio19-dev on your device: `ERROR: Could not build wheels for PyAudio, which is required to install pyproject.toml-based projects`
